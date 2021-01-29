@@ -4,12 +4,12 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='mindpowered-reservedseating',
-    version='0.0.3',
+    version='0.0.4',
     author="Mind Powered Corporation",
     author_email="support@mindpowered.dev",
     license="CPAL-1.0",
     url="https://mindpowered.dev/",
-    description="ReservedSeating",
+    description="Reserved/Allocated/Assigned Seating for Venues and Events",
     long_description=long_description,
     long_description_content_type="text/markdown",
     py_modules=['reservedseating'],
